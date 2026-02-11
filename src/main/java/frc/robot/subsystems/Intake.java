@@ -4,11 +4,16 @@
 
 package frc.robot.subsystems;
 
+import com.revrobotics.spark.SparkMax;
+
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class Intake extends SubsystemBase {
+  public SparkMax intakemotor;
   /** Creates a new Intake. */
-  public Intake() {}
+  public Intake() {
+
+  }
 
   @Override
   public void periodic() {

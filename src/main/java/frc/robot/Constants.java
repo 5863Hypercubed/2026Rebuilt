@@ -16,4 +16,18 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
+
+  public static class ShooterConstants {
+    public static final int hoodMotorID = 14;
+    public static final int flywheelLID = 15;
+    public static final int flywheelMID = 16;
+
+    public static final int hoodkP = 0;
+    public static final int hoodkI = 0;
+    public static final int hoodkD = 0;
+
+    public static final double driverDiameter = 24; //get from adler
+    public static final double drivenDiameter = 20;
+    public static final double beltconversion = driverDiameter/drivenDiameter;
+  }
 }
