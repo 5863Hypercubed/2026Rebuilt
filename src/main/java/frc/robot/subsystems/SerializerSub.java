@@ -9,13 +9,14 @@ import com.revrobotics.spark.SparkLowLevel.MotorType;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class SerializerSub extends SubsystemBase{
-    // Replace 1 with your actual CAN ID
+//CANID is a placeholder, needs to be set
  private final SparkMax m_motor = new SparkMax(1, MotorType.kBrushless);
+
  public SerializerSub() {
-// Optional: Configure motor settings here (e.g., current limits)
+
 }
 
-public void runSterilizer(double speed) {
+public void runSerializer(double speed) {
 m_motor.set(speed);
 }
 

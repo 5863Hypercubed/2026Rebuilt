@@ -15,7 +15,7 @@ public class SerializerCmd extends Command {
 
   @Override
   public void execute() {
-    m_subsystem.runSterilizer(m_speed);
+    m_subsystem.runSerializer(m_speed);
   }
 
   @Override
