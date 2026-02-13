@@ -10,7 +10,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class SerializerSub extends SubsystemBase{
 //CANID is a placeholder, needs to be set
- private final SparkMax m_motor = new SparkMax(1, MotorType.kBrushless);
+ private final SparkMax m_motor = new SparkMax(18, MotorType.kBrushless);
 
  public SerializerSub() {
 
