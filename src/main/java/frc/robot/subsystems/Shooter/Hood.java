@@ -5,7 +5,7 @@
 package frc.robot.subsystems.Shooter;
 
 import frc.robot.Constants;
-import frc.robot.Util.ShotCalc;
+import frc.robot.util.ShotCalc;
 
 import com.revrobotics.PersistMode;
 import com.revrobotics.RelativeEncoder;

@@ -4,7 +4,7 @@
 
 package frc.robot.subsystems.Shooter;
 
-import frc.robot.Util.ShotCalc;
+import frc.robot.util.ShotCalc;
 
 import com.revrobotics.RelativeEncoder;
 import com.revrobotics.spark.SparkClosedLoopController;
@@ -20,7 +20,7 @@ public class Flywheel extends SubsystemBase {
   public RelativeEncoder f_encoder;
   public SparkClosedLoopController pidController;
   /** Creates a new Flywheel. */
-  public Flywheel() {
+  public Flywheel() { 
   }
 
   @Override
